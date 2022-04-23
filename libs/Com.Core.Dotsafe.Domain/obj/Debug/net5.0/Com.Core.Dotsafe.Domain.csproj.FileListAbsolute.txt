@@ -1,0 +1,12 @@
+D:\_work\_dev_test\dotnet\dotsafe-api2\libs\Com.Core.Dotsafe.Domain\bin\Debug\net5.0\Com.Core.Dotsafe.Domain.deps.json
+D:\_work\_dev_test\dotnet\dotsafe-api2\libs\Com.Core.Dotsafe.Domain\bin\Debug\net5.0\Com.Core.Dotsafe.Domain.dll
+D:\_work\_dev_test\dotnet\dotsafe-api2\libs\Com.Core.Dotsafe.Domain\bin\Debug\net5.0\Com.Core.Dotsafe.Domain.pdb
+D:\_work\_dev_test\dotnet\dotsafe-api2\libs\Com.Core.Dotsafe.Domain\obj\Debug\net5.0\Com.Core.Dotsafe.Domain.csproj.AssemblyReference.cache
+D:\_work\_dev_test\dotnet\dotsafe-api2\libs\Com.Core.Dotsafe.Domain\obj\Debug\net5.0\Com.Core.Dotsafe.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\_work\_dev_test\dotnet\dotsafe-api2\libs\Com.Core.Dotsafe.Domain\obj\Debug\net5.0\Com.Core.Dotsafe.Domain.AssemblyInfoInputs.cache
+D:\_work\_dev_test\dotnet\dotsafe-api2\libs\Com.Core.Dotsafe.Domain\obj\Debug\net5.0\Com.Core.Dotsafe.Domain.AssemblyInfo.cs
+D:\_work\_dev_test\dotnet\dotsafe-api2\libs\Com.Core.Dotsafe.Domain\obj\Debug\net5.0\Com.Core.Dotsafe.Domain.csproj.CoreCompileInputs.cache
+D:\_work\_dev_test\dotnet\dotsafe-api2\libs\Com.Core.Dotsafe.Domain\obj\Debug\net5.0\Com.Core.Dotsafe.Domain.dll
+D:\_work\_dev_test\dotnet\dotsafe-api2\libs\Com.Core.Dotsafe.Domain\obj\Debug\net5.0\refint\Com.Core.Dotsafe.Domain.dll
+D:\_work\_dev_test\dotnet\dotsafe-api2\libs\Com.Core.Dotsafe.Domain\obj\Debug\net5.0\Com.Core.Dotsafe.Domain.pdb
+D:\_work\_dev_test\dotnet\dotsafe-api2\libs\Com.Core.Dotsafe.Domain\obj\Debug\net5.0\ref\Com.Core.Dotsafe.Domain.dll
