@@ -7,6 +7,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
 using Com.Core.Dotsafe.Infrastructure.Data;
+using Com.Core.Dotsafe.Domain;
 
 namespace Com.Core.Dotsafe.UI.Controllers
 {
@@ -26,19 +27,14 @@ namespace Com.Core.Dotsafe.UI.Controllers
         #endregion
 
         #region Public methods
-        //[HttpGet]
-        //public IEnumerable<Selfie> TestAMoi()
-        //{
-        //    return Enumerable.Range(1, 10).Select(item => new Selfie() { Id = item });
-        //}
 
         [HttpGet]
         public IActionResult TestAMoi()
         {
-            //var model = Enumerable.Range(1, 10).Select(item => new Selfie() { Id = item });
-            //return this.StatusCode(StatusCodes.Status204NoContent);
+            var model = Enumerable.Range(1, 10).Select(item => new User() { Id = item });
+            return this.StatusCode(StatusCodes.Status204NoContent);
 
-            var model = this._context.Users.Select(item => new { Username = item.username }).ToList();
+            //var model = this._context.Users.ToList();
             
             return this.Ok(model);
         }

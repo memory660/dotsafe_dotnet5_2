@@ -29,6 +29,11 @@ namespace Com.Core.Dotsafe.UI
         public void ConfigureServices(IServiceCollection services)
         {
 
+            services.AddDbContext<DotsafesContext>(options =>
+            {
+                options.UseMySql(this.Configuration.GetConnectionString("MariaDbConnectionString"), ServerVersion.AutoDetect(this.Configuration.GetConnectionString("MariaDbConnectionString")));
+            });
+
             services.AddControllers();
             services.AddSwaggerGen(c =>
             {
