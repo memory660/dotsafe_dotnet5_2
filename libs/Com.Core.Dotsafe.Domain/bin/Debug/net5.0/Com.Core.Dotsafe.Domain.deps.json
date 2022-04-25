@@ -7,14 +7,27 @@
   "targets": {
     ".NETCoreApp,Version=v5.0": {
       "Com.Core.Dotsafe.Domain/1.0.0": {
+        "dependencies": {
+          "Com.Core.Dotsafe.Framework": "1.0.0"
+        },
         "runtime": {
           "Com.Core.Dotsafe.Domain.dll": {}
+        }
+      },
+      "Com.Core.Dotsafe.Framework/1.0.0": {
+        "runtime": {
+          "Com.Core.Dotsafe.Framework.dll": {}
         }
       }
     }
   },
   "libraries": {
     "Com.Core.Dotsafe.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Com.Core.Dotsafe.Framework/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

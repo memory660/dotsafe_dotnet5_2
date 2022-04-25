@@ -1,4 +1,7 @@
+using Com.Core.Dotsafe.Domain;
 using Com.Core.Dotsafe.Infrastructure.Data;
+using Com.Core.Dotsafe.Infrastructure.Repositories;
+using Com.Core.Dotsafe.UI.ExtensionsMethods;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -33,6 +36,8 @@ namespace Com.Core.Dotsafe.UI
             {
                 options.UseMySql(this.Configuration.GetConnectionString("MariaDbConnectionString"), ServerVersion.AutoDetect(this.Configuration.GetConnectionString("MariaDbConnectionString")));
             });
+
+            services.AddInjections();
 
             services.AddControllers();
             services.AddSwaggerGen(c =>

@@ -582,6 +582,9 @@
         }
       },
       "Com.Core.Dotsafe.Domain/1.0.0": {
+        "dependencies": {
+          "Com.Core.Dotsafe.Framework": "1.0.0"
+        },
         "runtime": {
           "Com.Core.Dotsafe.Domain.dll": {}
         },
@@ -589,9 +592,18 @@
           "Com.Core.Dotsafe.Domain.dll": {}
         }
       },
+      "Com.Core.Dotsafe.Framework/1.0.0": {
+        "runtime": {
+          "Com.Core.Dotsafe.Framework.dll": {}
+        },
+        "compile": {
+          "Com.Core.Dotsafe.Framework.dll": {}
+        }
+      },
       "Com.Core.Dotsafe.Infrastructure/1.0.0": {
         "dependencies": {
           "Com.Core.Dotsafe.Domain": "1.0.0",
+          "Com.Core.Dotsafe.Framework": "1.0.0",
           "Microsoft.EntityFrameworkCore": "5.0.16",
           "Microsoft.EntityFrameworkCore.Relational": "5.0.16",
           "Microsoft.Extensions.Configuration": "5.0.0",
@@ -2531,6 +2543,11 @@
       "hashPath": "system.diagnostics.diagnosticsource.5.0.1.nupkg.sha512"
     },
     "Com.Core.Dotsafe.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Com.Core.Dotsafe.Framework/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

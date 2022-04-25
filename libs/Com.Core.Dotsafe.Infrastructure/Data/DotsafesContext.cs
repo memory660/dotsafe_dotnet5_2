@@ -8,10 +8,11 @@ using System.Text;
 using System.Threading.Tasks;
 using Com.Core.Dotsafe.Domain;
 using Com.Core.Dotsafe.Infrastructure.Data.TypeConfigurations;
+using Com.Core.Dotsafe.Framework;
 
 namespace Com.Core.Dotsafe.Infrastructure.Data
 {
-    public class DotsafesContext : DbContext
+    public class DotsafesContext : DbContext, IUnitOfWork
     {
         #region Constructors
         public DotsafesContext([NotNullAttribute] DbContextOptions options) : base(options) { }

@@ -40,3 +40,5 @@ D:\_work\_dev_test\dotnet\dotsafe-api2\Com.Core.Dotsafe.UI\bin\Debug\net5.0\Huma
 D:\_work\_dev_test\dotnet\dotsafe-api2\Com.Core.Dotsafe.UI\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Design.dll
 D:\_work\_dev_test\dotnet\dotsafe-api2\Com.Core.Dotsafe.UI\bin\Debug\net5.0\MySqlConnector.dll
 D:\_work\_dev_test\dotnet\dotsafe-api2\Com.Core.Dotsafe.UI\bin\Debug\net5.0\Pomelo.EntityFrameworkCore.MySql.dll
+D:\_work\_dev_test\dotnet\dotsafe-api2\Com.Core.Dotsafe.UI\bin\Debug\net5.0\Com.Core.Dotsafe.Framework.dll
+D:\_work\_dev_test\dotnet\dotsafe-api2\Com.Core.Dotsafe.UI\bin\Debug\net5.0\Com.Core.Dotsafe.Framework.pdb

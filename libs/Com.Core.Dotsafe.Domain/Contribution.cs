@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Text.Json.Serialization;
 using System.Threading.Tasks;
 
 namespace Com.Core.Dotsafe.Domain
@@ -11,6 +12,7 @@ namespace Com.Core.Dotsafe.Domain
         public int Id { get; set; }
         public string name { get; set; }
 
+        [JsonIgnore]
         public User User { get; set; }
 
         public Techno Techno { get; set; }

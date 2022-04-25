@@ -338,11 +338,24 @@
       "Com.Core.Dotsafe.Domain/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "Com.Core.Dotsafe.Framework": "1.0.0"
+        },
         "compile": {
           "bin/placeholder/Com.Core.Dotsafe.Domain.dll": {}
         },
         "runtime": {
           "bin/placeholder/Com.Core.Dotsafe.Domain.dll": {}
+        }
+      },
+      "Com.Core.Dotsafe.Framework/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/Com.Core.Dotsafe.Framework.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Com.Core.Dotsafe.Framework.dll": {}
         }
       }
     }
@@ -1033,11 +1046,17 @@
       "type": "project",
       "path": "../Com.Core.Dotsafe.Domain/Com.Core.Dotsafe.Domain.csproj",
       "msbuildProject": "../Com.Core.Dotsafe.Domain/Com.Core.Dotsafe.Domain.csproj"
+    },
+    "Com.Core.Dotsafe.Framework/1.0.0": {
+      "type": "project",
+      "path": "../Com.Core.Dotsafe.Framework/Com.Core.Dotsafe.Framework.csproj",
+      "msbuildProject": "../Com.Core.Dotsafe.Framework/Com.Core.Dotsafe.Framework.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net5.0": [
       "Com.Core.Dotsafe.Domain >= 1.0.0",
+      "Com.Core.Dotsafe.Framework >= 1.0.0",
       "Microsoft.EntityFrameworkCore >= 5.0.16",
       "Microsoft.EntityFrameworkCore.Design >= 5.0.16",
       "Microsoft.EntityFrameworkCore.Relational >= 5.0.16",
@@ -1076,6 +1095,9 @@
           "projectReferences": {
             "D:\\_work\\_dev_test\\dotnet\\dotsafe-api2\\libs\\Com.Core.Dotsafe.Domain\\Com.Core.Dotsafe.Domain.csproj": {
               "projectPath": "D:\\_work\\_dev_test\\dotnet\\dotsafe-api2\\libs\\Com.Core.Dotsafe.Domain\\Com.Core.Dotsafe.Domain.csproj"
+            },
+            "D:\\_work\\_dev_test\\dotnet\\dotsafe-api2\\libs\\Com.Core.Dotsafe.Framework\\Com.Core.Dotsafe.Framework.csproj": {
+              "projectPath": "D:\\_work\\_dev_test\\dotnet\\dotsafe-api2\\libs\\Com.Core.Dotsafe.Framework\\Com.Core.Dotsafe.Framework.csproj"
             }
           }
         }

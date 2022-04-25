@@ -8,6 +8,7 @@ using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
 using Com.Core.Dotsafe.Infrastructure.Data;
 using Com.Core.Dotsafe.Domain;
+using Com.Core.Dotsafe.UI.Dtos;
 
 namespace Com.Core.Dotsafe.UI.Controllers
 {
@@ -16,27 +17,40 @@ namespace Com.Core.Dotsafe.UI.Controllers
     public class DotsafesController : ControllerBase
     {
         #region Fields
-        private readonly DotsafesContext _context = null;
+        private readonly IContributionRepository _repository = null;
         #endregion
 
         #region Constructors
-        public DotsafesController(DotsafesContext context)
+        public DotsafesController(IContributionRepository repository)
         {
-            this._context = context;
+            this._repository = repository;
         }
         #endregion
 
         #region Public methods
 
-        [HttpGet]
-        public IActionResult TestAMoi()
+        [HttpPost]
+        public IActionResult save(ContributionDto contribution)
         {
-            var model = Enumerable.Range(1, 10).Select(item => new User() { Id = item });
-            return this.StatusCode(StatusCodes.Status204NoContent);
+            Contribution newContribution = this._repository.AddOne(new Contribution() { 
+                name = contribution.name
+            });
 
-            //var model = this._context.Users.ToList();
-            
-            return this.Ok(model);
+            this._repository.UnitOfWork.SaveChanges();
+
+            if (newContribution != null)
+            {
+                return Ok(newContribution);
+            }
+
+            return Ok(BadRequest());
+        }
+
+        [HttpGet]
+        public IActionResult GetAll([FromQuery] int userId = 0)
+        {
+            var contributions = this._repository.GetAll(userId);
+            return Ok(contributions);
         }
         #endregion
     }

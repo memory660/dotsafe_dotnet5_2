@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "Oy34/caYdpNvIUlArypM2Y2W8BydYR5w1+t5a0qpSYZ7vakBC2YyEe+WhN4UBJIpYoTsM2Rskg6/ngpgsPCAvQ==",
+  "dgSpecHash": "8eMaZNL9fPK/p1MSjwKpPTDKzTOsK7A8BnN/zWq1AJzBpxFr7dkJi6tAbPpIl1q2XVYDYbGCd5ykHVrGGXoIsg==",
   "success": true,
   "projectFilePath": "D:\\_work\\_dev_test\\dotnet\\dotsafe-api2\\libs\\Com.Core.Dotsafe.Infrastructure\\Com.Core.Dotsafe.Infrastructure.csproj",
   "expectedPackageFiles": [

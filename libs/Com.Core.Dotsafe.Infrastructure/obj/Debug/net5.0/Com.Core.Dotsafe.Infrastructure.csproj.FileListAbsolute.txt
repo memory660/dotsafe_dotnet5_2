@@ -16,3 +16,5 @@ D:\_work\_dev_test\dotnet\dotsafe-api2\libs\Com.Core.Dotsafe.Infrastructure\obj\
 D:\_work\_dev_test\dotnet\dotsafe-api2\libs\Com.Core.Dotsafe.Infrastructure\obj\Debug\net5.0\Com.Core.Dotsafe.Infrastructure.pdb
 D:\_work\_dev_test\dotnet\dotsafe-api2\libs\Com.Core.Dotsafe.Infrastructure\obj\Debug\net5.0\Com.Core.Dotsafe.Infrastructure.genruntimeconfig.cache
 D:\_work\_dev_test\dotnet\dotsafe-api2\libs\Com.Core.Dotsafe.Infrastructure\obj\Debug\net5.0\ref\Com.Core.Dotsafe.Infrastructure.dll
+D:\_work\_dev_test\dotnet\dotsafe-api2\libs\Com.Core.Dotsafe.Infrastructure\bin\Debug\net5.0\Com.Core.Dotsafe.Framework.dll
+D:\_work\_dev_test\dotnet\dotsafe-api2\libs\Com.Core.Dotsafe.Infrastructure\bin\Debug\net5.0\Com.Core.Dotsafe.Framework.pdb
