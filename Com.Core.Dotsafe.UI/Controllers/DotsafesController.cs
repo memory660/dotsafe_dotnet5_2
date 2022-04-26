@@ -9,10 +9,13 @@ using Microsoft.EntityFrameworkCore;
 using Com.Core.Dotsafe.Infrastructure.Data;
 using Com.Core.Dotsafe.Domain;
 using Com.Core.Dotsafe.UI.Dtos;
+using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
 
 namespace Com.Core.Dotsafe.UI.Controllers
 {
     [Route("api/v1/[controller]")]
+    [Authorize(AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme)]
     [ApiController]
     public class DotsafesController : ControllerBase
     {

@@ -1,7 +1,9 @@
-﻿using Com.Core.Dotsafe.UI.Application.DTOs;
+﻿using Com.Core.Dotsafe.Infrastructure.Configurations;
+using Com.Core.Dotsafe.UI.Application.DTOs;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
+using Microsoft.Extensions.Options;
 using Microsoft.IdentityModel.Tokens;
 using System;
 using System.IdentityModel.Tokens.Jwt;
@@ -18,13 +20,15 @@ namespace Com.Core.Dotsafe.UI.Controllers
         #region Fields
         private UserManager<IdentityUser> _userManager = null;
         private IConfiguration _configuration = null;
+        private readonly SecurityOption _options = null;
         #endregion
 
         #region Constructors
-        public AuthenticateController(UserManager<IdentityUser> userManager, IConfiguration configuration)
+        public AuthenticateController(UserManager<IdentityUser> userManager, IConfiguration configuration, IOptions<SecurityOption> options)
         {
             this._userManager = userManager;
             this._configuration = configuration;
+            this._options = options.Value;
         }
         #endregion
 
@@ -81,7 +85,7 @@ namespace Com.Core.Dotsafe.UI.Controllers
             var jwtTokenHandler = new JwtSecurityTokenHandler();
 
             // We get our secret from the appsettings
-            var key = Encoding.UTF8.GetBytes(this._configuration["Jwt:Key"]); 
+            var key = Encoding.UTF8.GetBytes(this._options.Key); 
 
             var tokenDescriptor = new SecurityTokenDescriptor
             {

@@ -38,6 +38,8 @@ namespace Com.Core.Dotsafe.UI
                 options.UseMySql(this.Configuration.GetConnectionString("MariaDbConnectionString"), ServerVersion.AutoDetect(this.Configuration.GetConnectionString("MariaDbConnectionString")));
             });
 
+            services.AddCustomOptions(this.Configuration);
+
             services.AddInjections();
             services.AddCustomSecurity(this.Configuration); // cors, jwt
             services.AddControllers();
@@ -63,10 +65,10 @@ namespace Com.Core.Dotsafe.UI
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
-                app.UseSwagger();
-                app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "Com.Core.Dotsafe.UI v1"));
             }
 
+            app.UseSwagger();
+            app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "Com.Core.Dotsafe.UI v1"));
             app.UseHttpsRedirection();
 
             app.UseRouting();

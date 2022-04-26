@@ -60,3 +60,4 @@ D:\_work\_dev_test\dotnet\dotsafe-api2\Com.Core.Dotsafe.UI\bin\Debug\net5.0\Micr
 D:\_work\_dev_test\dotnet\dotsafe-api2\Com.Core.Dotsafe.UI\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
 D:\_work\_dev_test\dotnet\dotsafe-api2\Com.Core.Dotsafe.UI\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll
 D:\_work\_dev_test\dotnet\dotsafe-api2\Com.Core.Dotsafe.UI\obj\Debug\net5.0\staticwebassets\Com.Core.Dotsafe.UI.StaticWebAssets.xml
+D:\_work\_dev_test\dotnet\dotsafe-api2\Com.Core.Dotsafe.UI\bin\Debug\net5.0\appsettings.Staging.json

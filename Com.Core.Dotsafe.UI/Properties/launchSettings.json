@@ -17,6 +17,15 @@
         "ASPNETCORE_ENVIRONMENT": "Development"
       }
     },
+    "IIS Express Staging": {
+      "commandName": "IISExpress",
+      "launchBrowser": true,
+      "launchUrl": "swagger",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Staging",
+        "Jwt__Key": "this is my custom Secret key for authentication : IIS express staging"
+      }
+    },
     "Com.Core.Dotsafe.UI": {
       "commandName": "Project",
       "dotnetRunMessages": "true",
