@@ -1,0 +1,293 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\_work\\_dev_test\\dotnet\\dotsafe-api2\\libs\\Com.Core.Dotsafe.Data.Migrations\\Com.Core.Dotsafe.Data.Migrations.csproj": {}
+  },
+  "projects": {
+    "D:\\_work\\_dev_test\\dotnet\\dotsafe-api2\\libs\\Com.Core.Dotsafe.Data.Migrations\\Com.Core.Dotsafe.Data.Migrations.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\_work\\_dev_test\\dotnet\\dotsafe-api2\\libs\\Com.Core.Dotsafe.Data.Migrations\\Com.Core.Dotsafe.Data.Migrations.csproj",
+        "projectName": "Com.Core.Dotsafe.Data.Migrations",
+        "projectPath": "D:\\_work\\_dev_test\\dotnet\\dotsafe-api2\\libs\\Com.Core.Dotsafe.Data.Migrations\\Com.Core.Dotsafe.Data.Migrations.csproj",
+        "packagesPath": "C:\\Users\\dukepro\\.nuget\\packages\\",
+        "outputPath": "D:\\_work\\_dev_test\\dotnet\\dotsafe-api2\\libs\\Com.Core.Dotsafe.Data.Migrations\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\dukepro\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "D:\\_work\\_dev_test\\dotnet\\dotsafe-api2\\libs\\Com.Core.Dotsafe.Infrastructure\\Com.Core.Dotsafe.Infrastructure.csproj": {
+                "projectPath": "D:\\_work\\_dev_test\\dotnet\\dotsafe-api2\\libs\\Com.Core.Dotsafe.Infrastructure\\Com.Core.Dotsafe.Infrastructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.16, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[5.0.16, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational.Design": {
+              "target": "Package",
+              "version": "[1.1.6, )"
+            },
+            "Pomelo.EntityFrameworkCore.MySql": {
+              "target": "Package",
+              "version": "[5.0.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\_work\\_dev_test\\dotnet\\dotsafe-api2\\libs\\Com.Core.Dotsafe.Domain\\Com.Core.Dotsafe.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\_work\\_dev_test\\dotnet\\dotsafe-api2\\libs\\Com.Core.Dotsafe.Domain\\Com.Core.Dotsafe.Domain.csproj",
+        "projectName": "Com.Core.Dotsafe.Domain",
+        "projectPath": "D:\\_work\\_dev_test\\dotnet\\dotsafe-api2\\libs\\Com.Core.Dotsafe.Domain\\Com.Core.Dotsafe.Domain.csproj",
+        "packagesPath": "C:\\Users\\dukepro\\.nuget\\packages\\",
+        "outputPath": "D:\\_work\\_dev_test\\dotnet\\dotsafe-api2\\libs\\Com.Core.Dotsafe.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\dukepro\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "D:\\_work\\_dev_test\\dotnet\\dotsafe-api2\\libs\\Com.Core.Dotsafe.Framework\\Com.Core.Dotsafe.Framework.csproj": {
+                "projectPath": "D:\\_work\\_dev_test\\dotnet\\dotsafe-api2\\libs\\Com.Core.Dotsafe.Framework\\Com.Core.Dotsafe.Framework.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\_work\\_dev_test\\dotnet\\dotsafe-api2\\libs\\Com.Core.Dotsafe.Framework\\Com.Core.Dotsafe.Framework.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\_work\\_dev_test\\dotnet\\dotsafe-api2\\libs\\Com.Core.Dotsafe.Framework\\Com.Core.Dotsafe.Framework.csproj",
+        "projectName": "Com.Core.Dotsafe.Framework",
+        "projectPath": "D:\\_work\\_dev_test\\dotnet\\dotsafe-api2\\libs\\Com.Core.Dotsafe.Framework\\Com.Core.Dotsafe.Framework.csproj",
+        "packagesPath": "C:\\Users\\dukepro\\.nuget\\packages\\",
+        "outputPath": "D:\\_work\\_dev_test\\dotnet\\dotsafe-api2\\libs\\Com.Core.Dotsafe.Framework\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\dukepro\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\_work\\_dev_test\\dotnet\\dotsafe-api2\\libs\\Com.Core.Dotsafe.Infrastructure\\Com.Core.Dotsafe.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\_work\\_dev_test\\dotnet\\dotsafe-api2\\libs\\Com.Core.Dotsafe.Infrastructure\\Com.Core.Dotsafe.Infrastructure.csproj",
+        "projectName": "Com.Core.Dotsafe.Infrastructure",
+        "projectPath": "D:\\_work\\_dev_test\\dotnet\\dotsafe-api2\\libs\\Com.Core.Dotsafe.Infrastructure\\Com.Core.Dotsafe.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\dukepro\\.nuget\\packages\\",
+        "outputPath": "D:\\_work\\_dev_test\\dotnet\\dotsafe-api2\\libs\\Com.Core.Dotsafe.Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\dukepro\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "D:\\_work\\_dev_test\\dotnet\\dotsafe-api2\\libs\\Com.Core.Dotsafe.Domain\\Com.Core.Dotsafe.Domain.csproj": {
+                "projectPath": "D:\\_work\\_dev_test\\dotnet\\dotsafe-api2\\libs\\Com.Core.Dotsafe.Domain\\Com.Core.Dotsafe.Domain.csproj"
+              },
+              "D:\\_work\\_dev_test\\dotnet\\dotsafe-api2\\libs\\Com.Core.Dotsafe.Framework\\Com.Core.Dotsafe.Framework.csproj": {
+                "projectPath": "D:\\_work\\_dev_test\\dotnet\\dotsafe-api2\\libs\\Com.Core.Dotsafe.Framework\\Com.Core.Dotsafe.Framework.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.16, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.16, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[5.0.16, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.16, )"
+            },
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Pomelo.EntityFrameworkCore.MySql": {
+              "target": "Package",
+              "version": "[5.0.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

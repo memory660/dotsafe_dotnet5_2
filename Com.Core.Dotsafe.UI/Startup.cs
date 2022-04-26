@@ -5,6 +5,7 @@ using Com.Core.Dotsafe.UI.ExtensionsMethods;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
@@ -38,8 +39,18 @@ namespace Com.Core.Dotsafe.UI
             });
 
             services.AddInjections();
-
+            services.AddCustomSecurity(this.Configuration); // cors, jwt
             services.AddControllers();
+
+            services.AddDefaultIdentity<IdentityUser>(options =>
+            {
+                // règles   
+                //options.Password.RequiredLength = 8;
+                //options.SignIn.RequireConfirmedEmail = true;
+                //
+                //
+            }).AddEntityFrameworkStores<DotsafesContext>();
+
             services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "Com.Core.Dotsafe.UI", Version = "v1" });
@@ -59,6 +70,8 @@ namespace Com.Core.Dotsafe.UI
             app.UseHttpsRedirection();
 
             app.UseRouting();
+            app.UseCors(SecurityMethods.DEFAULT_POLICY);  //
+            app.UseAuthentication(); //
 
             app.UseAuthorization();
 

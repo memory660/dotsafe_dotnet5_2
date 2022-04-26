@@ -9,8 +9,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Com.Core.Dotsafe.Infrastructure.Migrations
 {
     [DbContext(typeof(DotsafesContext))]
-    [Migration("20220423080638_InitialCreate")]
-    partial class InitialCreate
+    [Migration("20220425142704_init")]
+    partial class init
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {

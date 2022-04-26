@@ -9,10 +9,11 @@ using System.Threading.Tasks;
 using Com.Core.Dotsafe.Domain;
 using Com.Core.Dotsafe.Infrastructure.Data.TypeConfigurations;
 using Com.Core.Dotsafe.Framework;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 
 namespace Com.Core.Dotsafe.Infrastructure.Data
 {
-    public class DotsafesContext : DbContext, IUnitOfWork
+    public class DotsafesContext : IdentityDbContext, IUnitOfWork
     {
         #region Constructors
         public DotsafesContext([NotNullAttribute] DbContextOptions options) : base(options) { }

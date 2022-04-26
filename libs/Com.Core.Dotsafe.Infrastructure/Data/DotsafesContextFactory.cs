@@ -34,4 +34,3 @@ namespace Com.Core.Dotsafe.Infrastructure.Data
         #endregion
     }
 }
-
