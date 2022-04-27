@@ -7,12 +7,12 @@ using System.Threading.Tasks;
 
 namespace Com.Core.Dotsafe.Domain
 {
-    public class Contribution
+    public class Contribution : BaseEntity
     {
         public int Id { get; set; }
         public string name { get; set; }
 
-        [JsonIgnore]
+        //[JsonIgnore]
         public User User { get; set; }
 
         public Techno Techno { get; set; }

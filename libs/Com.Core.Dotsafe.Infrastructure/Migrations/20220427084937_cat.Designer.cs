@@ -3,14 +3,16 @@ using System;
 using Com.Core.Dotsafe.Infrastructure.Data;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 namespace Com.Core.Dotsafe.Infrastructure.Migrations
 {
     [DbContext(typeof(DotsafesContext))]
-    partial class DotsafesContextModelSnapshot : ModelSnapshot
+    [Migration("20220427084937_cat")]
+    partial class cat
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
